@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Storm Robotics</title>
+  <meta content="" name="description">
+  <meta content="Storm, Robotics, GA, Alpharetta" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao - v4.7.0
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Template Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  *
+  * Author: Ashwin Mudaliar, Storm Robotics Programming Team
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" class="loader">
+    <img src="assets/img/stormloader.gif" class = "loaderimagecenter">
+  </div>
+
+  <!-- Loading Page Script -->
+<script>
+
+  document.onreadystatechange = function() {
+              if (document.readyState !== "complete") {
+                  document.querySelector(
+                    "body").style.visibility = "hidden";
+                  document.querySelector(
+                    "#loader").style.visibility = "visible";
+              } else {
+                  document.querySelector(
+                    "#loader").style.display = "none";
+                  document.querySelector(
+                    "body").style.visibility = "visible";
+              }
+          };
+  
+    </script>
+
+  <!-- End Loading Screen -->
+  
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">Selecao</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/stormlogo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Subteams</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Pictures</a></li>
+          <li><a class="nav-link scrollto" href="joinus.html" target="_blank">Join Us</a></li>
+          <li><a class="nav-link scrollto" href="support.html">Support</a></li>
+          <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Subteams</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="programming.html" target="_blank">Programming</a></li>
+                  <li><a href="fll.html">FLL</a></li>
+                  <li><a href="mechanical.html">Mechanical</a></li>
+                  <li><a href="https://sites.google.com/view/miltonscioly/home">Science Olympiad</a></li>
+                </ul>
+              </li>
+              <li><a href="inclusion.html">Inclusion</a></li>
+              <li><a href="service.html">Our Impact</a></li>
+              <li><a href="team.html">Our Team</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="login.html">Portal</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Storm Robotics</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Storm Robotics is a student-led, community based FRC robotics team (#8849)</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Equity and Inclusion</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Storm Robotics is committed to creating a diverse, inclusive, and equitable environment. We had multiple programs in place to increase the involvement of underrepreseted populations in STEM, FIRST, and FRC.</p>
+          <a href="inclusion.html" target="_blank" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Our 2022 Season</h2>
+          <p class="animate__animated animate__fadeInUp">Our rookie season was one of the most informative, and sucessful experiences we could have every asked for. Over the course of the season, we earned six awards, including a bid to the world championships in Houston.</p>
+          <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Recruitment Has Begun!</h2>
+          <p class="animate__animated animate__fadeInUp">Click Below to Join Us!</p>
+          <a href="https://forms.gle/nfsWQhf7JbPxtRNGA" class="btn-get-started animate__animated animate__fadeInUp scrollto">Application</a>
+        </div>
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Members/Parents</h2>
+          <p class="animate__animated animate__fadeInUp">Click below to access the portal, or check out our resources tab</p>
+          <a href="login.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Portal Login</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgb(148, 84, 212, .6)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Storm Robotics</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              Storm Robotics is a FRC Robotics team (<a href = "#faq">learn more</a>) that aims to give students without FRC teams in their schools a chance at the highest level of competitive robotics.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Mechanical - Students learn how to design and implement complex designs and assemblies, including cascading elevators, telescoping climbers, and swerve drivetrains. Students learn the fundemental engineering concepts that drive thes creation of these mechanisms and other <a href="#portfolio">projects</a>.</li>
+              <li><i class="ri-check-double-line"></i> Programming - Students learn how to implement java-based, python-based, and even C-based systems to drive the robot and operate its components. Additionally, students learn how to design and create other programming projects, such as this website. </li>
+              <li><i class="ri-check-double-line"></i> Electrical - Students learn how to design electrical systems, solder various connections, and implement various devices. </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              At Storm Robotics, we provide an educational environment
+              that develops leadership skills, promotes innovation and
+              creativity, and enhances both technical and nontechnical skills.
+              We provide all the necessary tools and methods to improve
+              skills such as design, assembly, and programming, as well
+              as business, marketing, communication, and leadership. We
+              promote S.T.E.A.M. growth in order to help students prepare
+              for future careers with advantageous skills.
+            </p>
+            <p>
+              Coming back from our enriching experience at the FIRST World Championships, Storm Robotics has had the opportunity to reflect on our place in our community and our role in spreading STEM to the young students around us. As a result, we have unanimously concluded that we must seek to expand our operations to become a stable foundation and a catalyst for robotics education in Alpharetta and Milton. Learn more about how you can support below:
+            </p>
+            <a href="support.html" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Columbus District Event</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Carollton District Event</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Peachtree District Championships</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">FIRST World Championships</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Columbus District Event, Columbus State University, 2022</h3>
+                <p class="fst-italic">
+                  In our first competition in our young life, we learned the importance of a strong drivetrain, stable design, and good build quality.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> District Event Finalists</li>
+                  <li><i class="ri-check-double-line"></i> Rookie Inspiration Award</li>
+                 
+                </ul>
+                <p>
+                  We entered competition with a completely untested robot. Fortunately, our robot featured a 6 motor drive train with a high gearbox redcution that enabled us to play very effective defense. 
+                  After some minor issues with our drivetrain's chain towards the end of the qualification rounds, we were the second pick of the second-seeded alliance, with <a href="https://www.ihotrobotics.com/home">IHOT robotics</a>
+                  and the <a href="https://prhsrobotics.com/">RoboLions</a>. With help from our amazing aliance partners, we got our robot sturdy and working and went all the way to the finals! We left competition with a lot of experience
+                  and the Rookie Inspiration Award. 
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/ColumbusEventPicture.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Carollton District Event, University of West Georgia, 2022</h3>
+                <p class="fst-italic"> 
+                  At Carrollton, we learned the value of mentorship, never giving up, and perseverance.
+                </p>
+                <p class="fst-italic">
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. -->
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> District Event Winner</li>
+                  <li><i class="ri-check-double-line"></i> Rookie All-Star Award</li>
+                </ul>
+                <p>
+                  After completely restructuring our robot, swapping chain for belts, and adding a passive climber system, we were in a good position heading to our second district event. Qualification started our rough, where our climber was
+                  ripped from our robot. Although we did not have the climber for the rest of the competition, we were able to play solid defense and even scored a few balls. Towards the end of the qualification rounds, we had some issues with
+                  slippage, but the true nature of the issue would only reveal itself after alliance selections. We were drafted into the top seed alliance with <a href="https://nghsrobotics.weebly.com/">Team 1771</a> and fellow rookies, 
+                  <a href="https://www.themechanisms.org/">The Mechanisms</a>. During the lunch break, we discovered that our agressive defense resulted in the teeth from a belt in our drivetrain being completely stripped. With enourmous help
+                  from our absolutely amazing alliance partners, we were able to get ourselves fixed for the final rounds, where 1771's stellar offensive capabilities and the mechanisms awe-inspiring shooting consistency coupled with our defensive
+                  capabiltiies led to a win!
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/CarrolltonEventPicture.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Peachtree District Championships (State Championships), Mercer University, 2022</h3>
+                <p class="fst-italic">
+                  The Peachtree District Championships taught us the importance of good build quality once again, and revealed to us the true meaning of FIRST robotics. 
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Rookie All Star Award (World Championship Bid)</li>
+                </ul>
+                <p>
+                  After realizing the pitfalls our our current robot design, we decided to <strong>completely rebuild</strong> our robot. The first addition we made was a swerve drive train, which allows robots ot travel in any direction 
+                  and at any yaw. Additionally, we ensured our robot was as sturdy as possible. However, the swerve modules came <strong>one day</strong> before the start of competiton. As a result, we had no choice but to complete our robot
+                  at competition. We were looking forward to finishing before the end of qualification, however, issues with the relative encoder built into the motor and the lack of available absolute encoders meant we could unfortunately not finish in time for match play.
+                  Even though we ultimately failed, we learned the true meaning of FIRST robotics is not to win or compete, but to <strong>learn</strong>, <strong>never</strong> give up, and making a platform for students like us to learn.
+                  Just as all hope seemed lost, we were chosen for the Rookie All-Star Award for our robust community outreach and importance, which gave us our bid to worlds.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/PCHDistrict.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>World Championships, Houston, 2022</h3>
+                <p class="fst-italic">
+                  At worlds we had fun!
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Rookie Inspiration Award</li>
+                </ul>
+                <p>
+                  After securing over 15,000 dollars in corporate sponsorship, a further 18,000 in dues, and 5,000 in community donations, we were on our way to Houston. This was one of the first competitions where we were able to adequately test, 
+                  and it showed. We competed with some of the best teams from all around the world, and played incredible defense throuhgout the event. After a informative 12 qualification matches, we received the Rookie Inspitration Award which recognizes
+                  a team for its strong mission that aligns with FIRST's mission, passion for robotics, and strong team partnership. 
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/WorldsPicture.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Support Us</h3>
+            <p> As a completely student-led team, high-schoolers manage team logistics, team finances, and building, designing, and programming the robot itself! We apprieciate any help at all! Learn how you can support Storm Robotics by clikcing the button to the right.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="support.html">Learn How</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>SubTeams</h2>
+          <p>Our Components</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="bi bi-heart" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="service.html">Community Service</a></h4>
+              <p class="description">Storm Robotics prides itself on being able to effectively serve its community through various service projects. <a href="service.html">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-braces" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="programming.html">Programming</a></h4>
+              <p class="description">At Storm Robotics, we run various programs to help young students in our community learn the basics of programming. Our members learn industry standards such as python based machine learning application and java fundementals. <a href="programming.html">Learn More</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-tools" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="mechanical.html">Mechanical</a></h4>
+              <p class="description">We prepare students for the real world by instilling them with real-world, industry standard skills that they will carry with them to different aspects of their life. <a href="mechanical.html">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-cloud-lightning-rain-fill" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="https://sites.google.com/view/miltonscioly/home">Science Olympiad</a></h4>
+              <p class="description">The <a href="https://www.soinc.org/">Science Olympiad</a> team under the Storm Robotics Umbrella. As part of our <a href="inclusion.html">Equity and Inclusion Initiative</a>, we have facillitated the creation of an over 68% female science olympiad team! <a href="ftc.html">Learn More</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-lightning-charge" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="fll.html">FLL Team 1 - Harmony Youth Center Robotics Blue</a></h4>
+              <p class="description">One of the <a href="https://www.firstinspires.org/robotics/fll/">FLL</a> under the Storm Robotics Umbrella. This team is primarily for grades K-6, but under special requests grades 7-8 may be allowed to join. <a href="fll.html">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <div class="icon"><i class="bi bi-lightning-charge" style="color: #9454d4;"></i></div>
+              <h4 class="title"><a href="fll.html">FLL Team 2 - Harmony Youth Center Robotics White</a></h4>
+              <p class="description">Essentially a carbon copy of the other team, this team follows the same guidelines and structure. Both teams will work in tandem to ensure a informative, and meanigful experience for all our members. <a href="fll.html">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Portfolio</h2>
+          <p>What we've done</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Service</li>
+          <li data-filter=".filter-card">Robot</li>
+          <li data-filter=".filter-web">Competition</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/foodforlives2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Storm Robotics x Food for Lives</h4>
+              <p>Service Project</p>
+              <a href="assets/img/foodforlives2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Students help serve food to the homeless in Downtown Atlanta"><i class="bx bx-plus"></i></a>
+              <a href="service.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/robot2.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Worlds Pit</h4>
+              <p>Houston - World Championships</p>
+              <a href="assets/img/robot2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Team Power Hawks blesses us!"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/foodforlives1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Storm Robotics x Food for Lives</h4>
+              <p>Service Project</p>
+              <a href="assets/img/foodforlives1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Storm Robotics at Food4Lives in Downtown Atlanta!"><i class="bx bx-plus"></i></a>
+              <a href="service.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/robot1.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Members Working On Robot</h4>
+              <p>State Competition</p>
+              <a href="assets/img/portfolio/robot1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Members exhibiting their perseverance"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/robotcomp1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Robot in Action during worlds qualification match</h4>
+              <p>Houston - World Championships</p>
+              <a href="assets/img/robotcomp1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Storm Defense"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/periodforthepeople.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Storm Robotics x Periods for the People</h4>
+              <p>Service Project</p>
+              <a href="assets/img/periodforthepeople.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Storm Members donate period products from their drives to a local foster center!"><i class="bx bx-plus"></i></a>
+              <a href="service.html" class="details-link" title="Storm Members donate period products from their drives to a local foster center!"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/robotclimb.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Climbing Testing</h4>
+              <p>Houston - World Championships</p>
+              <a href="assets/img/robotclimb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Our Robot Climbing"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/robotswervemodule.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Swerve Module</h4>
+              <p>Robot Components</p>
+              <a href="assets/img/robotswervemodule.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="One of our many complex components"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/robotcomp2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>More Action</h4>
+              <p>Houston - World Championships</p>
+              <a href="assets/img/robotcomp2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Storm Defense"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/robotcomp3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Worlds Action</h4>
+              <p>Houston - World Championships</p>
+              <a href="assets/img/robotcomp3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="More Storm Defense"><i class="bx bx-plus"></i></a>
+              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="sponsors" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Our</h2>
+          <p>Sponsors</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  Simply Admissions clients are given access to professional college planning software, personality tests, proprietary spreadsheets, and other tools that have proven to simplify and streamline the process.           
+                </p>
+                <img src="assets/img/sponsorlogos/simplyadmissions.png" class="testimonial-img" alt="">
+                <h3>Simply Admissions</h3>
+                <h4>College Counseling</h4>
+              </div>
+            </div>
+          <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  The mission of the Argosy Foundation is to support people and programs that make our society a better place to live. We seek to employ creative and entrepreneurial approaches that help people to help themselves, and become self-sustaining whenever possible.
+                </p>
+                <img src="assets/img/sponsorlogos/argosy.png" class="testimonial-img" alt="">
+                <h3>Argosy Foundation</h3>
+                <h4>Non-Profit Organization</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  Dassault Systèmes SE is a French software corporation which develops software for 3D product design, simulation, manufacturing and other 3D related products.
+                </p>
+                <img src="assets/img/sponsorlogos/solidworkslogo.png" class="testimonial-img" alt="">
+                <h3>Dassault Systems</h3>
+                <h4>Software </h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  Instead of just selling bread and pastries, 101 Bagel Cafe also offers soups, sandwiches, wraps and salads on their menu that contain no artificial flavors, sweeteners or preservatives.
+                </p>
+                <img src="assets/img/sponsorlogos/101bagelcafe.png" class="testimonial-img" alt="">
+                <h3>101 Bagel Cafe</h3>
+                <h4>Local Cafe</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  OvalEdge was founded in 2013, with the goal of democratizing data and making it accessible to all. The founders believed that employees - from marketing, sales, IT, human resources, and other departments - could do their jobs better if they could develop insights from data across the organization.
+                </p>
+                <img src="assets/img/sponsorlogos/ovaledge.png" class="testimonial-img" alt="">
+                <h3>OvalEdge</h3>
+                <h4>Software/Data Analytics</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">How do I join? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                You can join by clicking <a href="https://forms.gle/nfsWQhf7JbPxtRNGA">here</a> and filling out a short form!
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What team should I join? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                It is suggested that K-6 join FLL, 7-9 join FTC, and 9*-12 join FRC. However, if you know you wil be busy during FRC season (Jan-April) and cannot consistenyl come to meetings, you should apply for the FTC team.
+              </p>
+              <p>* 9th graders may apply for FRC if given prior approval</p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">I don't have any experience in Robotics, can I still join? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Of course! FIRST is #morethanrobots, and we have many different positions catering to specific skills, such as business and marleting. We are more than happy to welcome you onto our team and teach you everythng we know!
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">What is FIRST? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                FIRST is the overarching orgnaziation behind FLL, FTC, and FRC. For more information, click <a href="https://www.firstinspires.org/">here</a>.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Is Storm Robotics a non-profit organizaiton? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Storm Robotics, under its parent organziation - The Georgia Robotics Alliance (EIN: 20-5604200), qualifies as a 501(c)3 non-profit. Therefore, all donations are tax-deductible! For more information, contact us!
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Is Storm Robotics affiliated with a school? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                No, Storm Robotics is a community-based team. However, we do have members from many different schools in our area!
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Team</h2>
+          <p>Our Hardworking Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div> -->
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-instagram"></i>
+                <h4>Instagram</h4>
+                <p>@gastormrobotics</p>
+              </div>
+
+              <a href = "mailto:contact@stormrobotics.org">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>contact@stormrobotics.org</p>
+              </div>
+              </a>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 404 769 2132</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="https://formsubmit.co/66b9adf4002f37c913e61d3d303c77b9" method="POST" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://instagram.com/gastormrobotics?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/storm-robotics-ga" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:contact@stormrobotics.org" class="facebook"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Storm Robotics</span></strong> 2022. All Rights Reserved. <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="credits">
+        Authored by Ashwin Mudaliar
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
